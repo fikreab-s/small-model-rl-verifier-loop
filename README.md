@@ -56,3 +56,11 @@ GRPO's group-relative normalization acts as an adaptive step-size controller, an
 
 ## License
 MIT
+
+## 📸 Visual Tour
+
+![Training Dynamics](viz/grpo_training.gif)
+
+![grpo vs ppo](viz/grpo_vs_ppo.png)
+
+---
