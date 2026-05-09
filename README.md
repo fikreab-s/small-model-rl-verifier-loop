@@ -1,6 +1,9 @@
-# 🔄 Small Model RL Verifier Loop (GRPO)
+# GRPO with Verifiable Rewards
 
-> Group Relative Policy Optimization (GRPO) with verifiable rewards for math reasoning and structured output generation on sub-2B models.
+> Group Relative Policy Optimization (GRPO) applied to math reasoning and structured output verification — exploring RL post-training without a value network.
+>
+> **Context:** GRPO eliminates the value network (43% VRAM savings), making RL post-training feasible on enterprise GPU constraints. Verifiable rewards (code execution, schema validation) provide the signal.
+
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
